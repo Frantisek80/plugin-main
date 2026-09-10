@@ -1,5 +1,5 @@
 {
-"name": "CZ/SK Plugin",
+  "name": "CZ/SK Plugin",
   "version": "1.0.0",
   "scrapers": [
     {
@@ -44,6 +44,5 @@
       "logo": "",
       "contentLanguage": ["cs", "sk"]
     }
-  ],
-  "id": "Test"
+  ]
 }
