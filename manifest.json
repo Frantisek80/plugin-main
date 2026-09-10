@@ -1,7 +1,7 @@
 {
   "id": "CZ/SK Plugin",
   "version": "1.0.0",
-  "Types": ["movie", "tv"],
+  "types": ["movie", "tv"],
   "scrapers": [
     {
       "id": "hellspy",
