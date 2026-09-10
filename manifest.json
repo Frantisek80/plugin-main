@@ -3,7 +3,10 @@
   "id": "CZ/SK Plugin",
   "version": "1.0.0",
   "types": ["movie", "tv"],
-  "resources": "",
+  "description":"Addon providing content from sk / cz torrents.",
+  "resources":["stream"],
+  "catalogs":[],
+  "idPrefixes":["tt"],
   "scrapers": [
     {
       "id": "hellspy",
