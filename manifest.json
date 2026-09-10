@@ -1,4 +1,5 @@
 {
+  "name": "CZ/SK Plugin",
   "id": "CZ/SK Plugin",
   "version": "1.0.0",
   "types": ["movie", "tv"],
