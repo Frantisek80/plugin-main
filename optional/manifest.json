@@ -1,0 +1,65 @@
+{
+  "name": "Anime",
+  "version": "1.0.0",
+  "scrapers": [
+    {
+      "id": "torrentio",
+      "name": "🧲 Torrentio",
+      "description": "Poskytuje torrentové streamy z vybraných torrentových poskytovatelů.",
+      "version": "1.0.0",
+      "author": "Phisher",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/torrentio.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": ["mp4", "mkv", "avi", "m3u8"],
+      "logo": "",
+      "contentLanguage": ["en", "cs", "sk"]
+    },
+    {
+      "id": "anikototv",
+      "name": "🪷 AnikotoTV",
+      "description": "Anime provider for AnikotoTV.to via Mapper API + Native Extractor",
+      "version": "1.0.5",
+      "author": "piratezoro9",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "filename": "providers/anikototv.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": [
+        "mp4"
+      ],
+      "logo": "https://i.postimg.cc/JhL3HBR4/anikototv.png",
+      "contentLanguage": [
+        "en",
+        "ja"
+      ]
+    },
+    {
+      "id": "hianime",
+      "name": "💮 HiAnime",
+      "description": "HiAnime multi-server anime streaming with real-time mapping and subtitles",
+      "version": "1.0.0",
+      "author": "Nuvio Team",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/hianime.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": [
+        "m3u8"
+      ],
+      "logo": "https://i.postimg.cc/13SYJPTx/hianime.png",
+      "contentLanguage": [
+        "ja",
+        "en"
+      ]
+    }
+  ]
+}
