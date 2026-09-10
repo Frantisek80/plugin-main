@@ -1,1 +1,22 @@
-{"id":"cz.hellspio.hellspio","version":"0.0.10","name":"Hellspio","description":"Prémiový český Stremio doplněk s podporou TMDB katalogů a lokalizovanými metadaty (náhrada Cinemety).","logo":"https://hellspy-stremio-three.vercel.app/public/hellspio_plus.png","resources":["stream","catalog","meta"],"types":["movie","series","anime"],"catalogs":[{"type":"movie","id":"hellspio_movies","name":"Hellspio","extra":[{"name":"search","isRequired":false},{"name":"genre","isRequired":false,"options":["Populární","Nejlíp hodnocené","V kinech","Chystané","Trendy týdne","---","Akční","Dobrodružný","Animovaný","Komedie","Krimi","Dokumentární","Drama","Rodinný","Fantasy","Historický","Horor","Hudební","Mysteriózní","Romantický","Sci-Fi","TV film","Thriller","Válečný","Western"]},{"name":"skip","isRequired":false}]},{"type":"series","id":"hellspio_series","name":"Hellspio","extra":[{"name":"search","isRequired":false},{"name":"genre","isRequired":false,"options":["Populární","Nejlíp hodnocené","Právě běží","Vysílá se dnes","Trendy týdne","---","Akční a dobrodružný","Animovaný","Komedie","Krimi","Dokumentární","Drama","Rodinný","Pro děti","Mysteriózní","Zprávy","Reality","Sci-Fi & Fantasy","Mýdlová opera","Talk","Válka a politika","Western"]},{"name":"skip","isRequired":false}]},{"type":"movie","id":"hellspio_newly_dubbed_dabingforum_movies","name":"Hellspio: Nově nadabované","extra":[{"name":"skip","isRequired":false}]},{"type":"series","id":"hellspio_newly_dubbed_dabingforum_series","name":"Hellspio: Nově nadabované","extra":[{"name":"skip","isRequired":false}]},{"type":"series","id":"hellspio_playlists","name":"Hellspio: Playlisty","extra":[{"name":"search","isRequired":false},{"name":"genre","isRequired":false,"options":["Nejnovější","Nejhranější","Líbí se","Moje oblíbené","Moje playlisty"]}]}],"behaviorHints":{},"config":[{"key":"token","type":"text","title":"Hellspio+ Token","required":true}]}
+{
+  "id": "org.stremio.hellspy",
+  "version": "0.0.1",
+  "name": "Hellspy",
+  "description": "Hellspy.to addon for Stremio",
+  "resources": [
+    "stream"
+  ],
+  "types": [
+    "movie",
+    "series"
+  ],
+  "idPrefixes": [
+    "tt",
+    "kitsu"
+  ],
+  "catalogs": [],
+  "stremioAddonsConfig": {
+    "issuer": "https://stremio-addons.net",
+    "signature": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..Q3c1o6zGBTzcnwfyb57kMw.evFQ-ODwmOeZWPsJ2Zkx-S_EgSpekuJcSOgnrTUR8pPy9tGHSZHo0n2PaIr5kRag6A4GVxDQ5MEW2G-4w8sHVwjEyO9TIqJMHBbZ0xbItd83SmHtN9unjgIi3tgwf6xr.XxBTJoNyWmi89W67BhG4FA"
+  }
+}
