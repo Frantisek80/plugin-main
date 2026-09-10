@@ -5,8 +5,6 @@
   "types": ["movie", "tv"],
   "description":"Addon providing content from sk / cz torrents.",
   "resources":["stream"],
-  "catalogs":[],
-  "idPrefixes":["tt"],
   "scrapers": [
     {
       "id": "hellspy",
